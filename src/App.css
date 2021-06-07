@@ -3,19 +3,24 @@
   padding: 0px;
   outline: none;
   width: 100%;
+  box-sizing: border-box;
 }
 .App{
   display: flex;
+  height: 100vh;
 }
 .home{
-  width: 100%;
+  width: calc(100% - 256px);
 }
 /*===Side Bar Left===*/
 .side-bar-left{
   width: 256px;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
+/*=Heading=*/
 .head-logo{
   height: 128px;
   display: flex;
@@ -23,6 +28,7 @@
   align-items: center;
 }
 .head-logo h1{
+  width: fit-content;
   font-weight: 500;
   font-size: 34px;
   letter-spacing: -0.68px;
@@ -32,9 +38,18 @@
   height: 40px;
   margin-right: 5px;
 }
+/*=Nav List=*/
 .nav-list{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+/*=Pro Box=*/
+.pro-box{
+  width: 224px;
+  height: 201px;
+  border: 1px solid #438aec;
+  margin-bottom: 40px;
+  border-radius: 10px;
 }

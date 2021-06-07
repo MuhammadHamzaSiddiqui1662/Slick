@@ -1,4 +1,4 @@
-import MainIcon from './../assets/icons/Home.svg';
+import MainIcon from './../../assets/icons/Home.svg';
 const HeadLogo = (props) => {
     return(
         <div className='head-logo'>
