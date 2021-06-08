@@ -1,0 +1,35 @@
+.management{
+    height: calc(100% - 48px);
+}
+.management-head{
+    font: normal normal 600 24px/36px Poppins;
+}
+.management-sub-window{
+    background-color: #fff;
+    height: calc(100% - 88px);
+    border-radius: 10px;
+    padding: 24px;
+}
+.window-sub-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.management-nav-list{
+    width: 318px;
+    display: flex;
+    justify-content: space-between;
+}
+.management-nav-items{
+    width: fit-content;
+    font: normal normal normal 16px/21px Poppins;
+    color: #8A8FA1;
+}
+.add-button{
+    width: 120px;
+    height: 40px;
+    color: #fff;
+    background-color: #6F8AE8;
+    border-radius: 5px;
+    font: normal normal 600 16px/21px Poppins;
+}

@@ -4,11 +4,13 @@ import ProBox from '../components/sidebarComponents/ProBox';
 
 const SideBarLeft = (props) => {
     return(
-        <div className='side-bar-left'>
-            <HeadLogo />
-            <NavList />
-            <ProBox />
-        </div>
+        // <div className='fixed-div'>
+            <div className='side-bar-left'>
+                <HeadLogo />
+                <NavList />
+                <ProBox />
+            </div>
+        // </div>
     )
 }
 export default SideBarLeft;

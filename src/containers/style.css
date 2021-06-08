@@ -1,0 +1,9 @@
+.dashboard{
+    width: calc(100% - 256px);
+    background-color: #f5f8fc;
+    padding: 8px 40px;
+    overflow: scroll;
+}
+.dashboard > div > div{
+    margin: 24px 0px;
+}

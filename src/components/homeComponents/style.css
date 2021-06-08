@@ -1,0 +1,85 @@
+.header{
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-head-p1{
+    font-weight: 400;
+}
+.home-head-p2{
+    font: normal normal 600 32px/36px Poppins;
+    letter-spacing: 0px;
+}
+.notification-box{
+    width: 48px;
+    height: 48px;
+}
+.home-banner{
+    height: 256px;
+    background-color: aquamarine;
+    border-radius: 10px;
+}
+.home-section-head{
+    height: 28px;
+    font: normal normal 600 20px/21px Poppins;
+}
+.home-products-section{
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    row-gap: 40px;
+}
+.home-products-section::after {
+    content: "";
+    flex: auto;
+}
+.home-product-card{
+    width: 189px;
+    height: 284px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.home-product-card figure{
+    height: 189px;
+    position: relative;
+}
+.price-tag{
+    width: 81px;
+    height: 28px;
+    position: absolute;
+    bottom: 0px;
+    right: 16px;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 5px 0px 0px;
+    font: normal normal normal 16px/21px Poppins;
+    letter-spacing: -0.16px;
+    color: #171C21;
+}
+.price-tag img{
+    height: 20px;
+    width: 20px;
+    margin-right: 5px;
+}
+figcaption{
+    padding: 6px 16px 10px 16px;
+}
+figcaption > p{
+    margin: 6px 0px;
+}
+figcaption .category{
+    color: #6F8AE8;
+    font-size: 12px;
+    letter-spacing: 1.2px;
+    font: normal normal 600 12px/21px Poppins;
+    height: 17px;
+}
+figcaption .product-name{
+    font: normal normal 600 16px/21px Poppins;
+    letter-spacing: -0.16px;
+    font-size: 16px;
+}
