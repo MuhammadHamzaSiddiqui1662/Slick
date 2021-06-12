@@ -14,6 +14,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 40px;
 }
 .management-nav-list{
     width: 318px;
@@ -32,4 +33,178 @@
     background-color: #6F8AE8;
     border-radius: 5px;
     font: normal normal 600 16px/21px Poppins;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 0px;
+}
+.banner-add-button{
+    top: -48px;
+}
+.product-add-button{
+    top: -64px;
+}
+.add-button > img{
+    width: 10px;
+    height: 10px;
+    margin-right: 6px;
+}
+.management-content{
+    margin: 8px 0px;
+    height: calc(100% - 56px);
+}
+.management-banner-list{
+    position: relative;
+    height: 100%;
+}
+.management-content-list{
+    padding-right: 20px;
+    height: 100%;
+    overflow-y: scroll;
+}
+/* width */
+.management-content-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.management-content-list::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+/* Handle */
+.management-content-list::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+.management-content-list::-webkit-scrollbar-thumb:hover {
+    background: #888;
+}
+.banner-list-item{
+    height: 63px;
+    margin: 24px 0px;
+    display: flex;
+    align-items: center;
+}
+.banner-image{
+    width: 112px;
+    height: 100%;
+}
+.banner-image img{
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+.link-button-section{
+    width: 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.link-button-section img{
+    width: 40px;
+    height: 40px;
+}
+.banner-url{
+    width: calc(100% - 252px);
+    margin: 0px 24px;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    background-color: #F5F6FA;
+    border-radius: 5px;
+}
+.banner-url img{
+    width: 18px;
+    height: 18px;
+    margin-right: 12px;
+}
+.banner-url p{
+    font: normal normal normal 14px/21px Poppins;
+    color: #8A8FA1;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+/*/////////////*/
+
+
+.product-list-item{
+    height: 64px;
+    margin: 24px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.product-image{
+    width: 64px;
+    height: 100%;
+}
+.product-image img{
+    object-fit: cover;
+    height: 100%;
+    border-radius: 5px;
+}
+.product-text{
+    width: calc(100% - 252px);
+    margin: 0px 24px;
+    padding: 10px 16px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+}
+.product-text p{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #8A8FA1;
+}
+.product-category, .product-price{
+    flex-grow: 1;
+    width: 25%;
+    font: normal normal normal 14px/21px Poppins;
+}
+.product-name{
+    width: 50%;
+    flex-grow: 2;
+    font: normal normal 600 14px/21px Poppins;
+}
+.product-price{
+    display: flex;
+    align-items: center;
+}
+.product-list-header{
+    height: 25px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+    background-color: #F5F6FA;
+}
+.product-extra{
+    width: 64px;
+    height: 100%;
+}
+.product-extra-2{
+    width: 92px;
+    height: 100%;
+}
+.col-head{
+    font: normal normal 600 12px/21px Poppins;
+    color: #6F8AE8 !important;
+    letter-spacing: 1.2px;
+}
+.management-product-list{
+    height: 100%;
+    position: relative;
+}
+.product-list-content{
+    height: calc(100% - 73px);
 }

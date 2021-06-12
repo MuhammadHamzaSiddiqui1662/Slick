@@ -7,3 +7,64 @@
 .dashboard > div > div{
     margin: 24px 0px;
 }
+.drop-back{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    background-color: #000000b0;
+}
+.modal{
+    padding: 20px;
+    background-color: white;
+    z-index: 500;
+    width: 50%;
+    border-radius: 20px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form>.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form>.head>p{
+    font: normal normal 600 16px/36px Poppins;
+}
+.form>.head>img{
+    height: 40px;
+    width: 40px;
+}
+.input{
+    margin: 5px 0px;
+}
+.input>label{
+    font: normal normal 600 14px/21px Poppins;
+    color: #6F8AE8;
+    margin-bottom: 12px;
+}
+.input>input,
+.input>select{
+    height: 40px;
+    background-color: #F5F6FA;
+    padding: 5px;
+    border-radius: 5px;
+    margin: 10px 0px;
+}
+.save-button{
+    font: normal normal 600 16px/21px Poppins;
+    height: 40px;
+    width: 120px;
+    color: white;
+    background-color: #6F8AE8;
+    border-radius: 5px;
+}

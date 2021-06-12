@@ -7,7 +7,7 @@ const Dashboard = ({Page}) => {
     return(
         <div className='dashboard'>
                 <Switch>
-                    <Route exact path='/Management' component={Management}/>
+                    <Route path='/Management' component={Management}/>
                     <Route path='/' component={Home}/>
                 </Switch>
         </div>

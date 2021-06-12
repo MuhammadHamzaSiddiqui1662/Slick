@@ -1,16 +1,16 @@
 import CoinIcon from './../../assets/icons/Coin.svg';
-const ProductCard = ({name, category, image, price}) => {
+const ProductCard = ({id, name, category, image, price}) => {
     return(
         <div className='home-product-card'>
             <figure>
                 <img src={image} alt={name} />
                 <div className="price-tag">
-                    <img src={CoinIcon} alt="CoinIcon" />
+                    <img className='coin-icon' src={CoinIcon} alt="CoinIcon" />
                     {price}
                 </div>
             </figure>
             <figcaption>
-                <p className="category">{category}</p>
+                <p className="category">{String(category.name).toUpperCase()}</p>
                 <p className="product-name">{name}</p>
             </figcaption>
         </div>
