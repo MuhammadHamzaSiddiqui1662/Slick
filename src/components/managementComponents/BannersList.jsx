@@ -1,5 +1,4 @@
 import BannerListItem from './BannerListItem';
-import BannerImage from './../../assets/icons/BannerImageDemo.png';
 import { generateForm } from './../UI/form';
 import {useEffect} from 'react';
 import { useSelector, useDispatch } from 'react-redux';
