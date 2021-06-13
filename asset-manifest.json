@@ -1,20 +1,19 @@
 {
   "files": {
-    "main.css": "/Slick/static/css/main.579db3cb.chunk.css",
-    "main.js": "/Slick/static/js/main.e96deb8f.chunk.js",
-    "main.js.map": "/Slick/static/js/main.e96deb8f.chunk.js.map",
+    "main.css": "/Slick/static/css/main.a154d8ca.chunk.css",
+    "main.js": "/Slick/static/js/main.a2023a97.chunk.js",
+    "main.js.map": "/Slick/static/js/main.a2023a97.chunk.js.map",
     "runtime-main.js": "/Slick/static/js/runtime-main.cd544484.js",
     "runtime-main.js.map": "/Slick/static/js/runtime-main.cd544484.js.map",
-    "static/js/2.255c88ab.chunk.js": "/Slick/static/js/2.255c88ab.chunk.js",
-    "static/js/2.255c88ab.chunk.js.map": "/Slick/static/js/2.255c88ab.chunk.js.map",
+    "static/js/2.5646fde3.chunk.js": "/Slick/static/js/2.5646fde3.chunk.js",
+    "static/js/2.5646fde3.chunk.js.map": "/Slick/static/js/2.5646fde3.chunk.js.map",
     "static/js/3.c477b30a.chunk.js": "/Slick/static/js/3.c477b30a.chunk.js",
     "static/js/3.c477b30a.chunk.js.map": "/Slick/static/js/3.c477b30a.chunk.js.map",
     "index.html": "/Slick/index.html",
-    "static/css/main.579db3cb.chunk.css.map": "/Slick/static/css/main.579db3cb.chunk.css.map",
-    "static/js/2.255c88ab.chunk.js.LICENSE.txt": "/Slick/static/js/2.255c88ab.chunk.js.LICENSE.txt",
+    "static/css/main.a154d8ca.chunk.css.map": "/Slick/static/css/main.a154d8ca.chunk.css.map",
+    "static/js/2.5646fde3.chunk.js.LICENSE.txt": "/Slick/static/js/2.5646fde3.chunk.js.LICENSE.txt",
     "static/media/Add.42cd704e.svg": "/Slick/static/media/Add.42cd704e.svg",
     "static/media/Analytics.93f930fd.svg": "/Slick/static/media/Analytics.93f930fd.svg",
-    "static/media/BannerImageDemo.819a1be6.png": "/Slick/static/media/BannerImageDemo.819a1be6.png",
     "static/media/Close.03b8e1ce.svg": "/Slick/static/media/Close.03b8e1ce.svg",
     "static/media/Coin.9ae88ecb.svg": "/Slick/static/media/Coin.9ae88ecb.svg",
     "static/media/DeleteFilled.d54a3424.svg": "/Slick/static/media/DeleteFilled.d54a3424.svg",
@@ -29,8 +28,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.cd544484.js",
-    "static/js/2.255c88ab.chunk.js",
-    "static/css/main.579db3cb.chunk.css",
-    "static/js/main.e96deb8f.chunk.js"
+    "static/js/2.5646fde3.chunk.js",
+    "static/css/main.a154d8ca.chunk.css",
+    "static/js/main.a2023a97.chunk.js"
   ]
 }
